@@ -1,0 +1,69 @@
+Architecture: {cpu: 'arm64', userspace: 'arm'}
+
+Battery:
+  - SM-A826S: {capacity: 4500, removable: False, tech: 'Li-ion'}
+Bluetooth: {spec: 5.0}
+
+Cameras:
+  - 0-Back: {flash: 'LED', info: '16 MP','4624x3468'}
+  - 1-Front: {flash: None, info: '10 MP','3648x2736'}
+  - 2-Back: {flash:  None, info: '12 MP','4000x3000'}
+
+Codename: 'SM-A826SLVASKC'
+
+Chipset: {Qualcomm:'SM8150 Snapdragon 855+ (7 nm)', security chipset: 'Quantum Random Number Generator'}
+
+CPU: [Octa-core:'Snapdragon 855+ (7 nm)']
+
+CPU_cores: 8 x cores:
+  - 4 cors = {Qualcomm:'Kryo 485 Silver',freq:'1785 MHz'}  
+  - 3 cors = {Qualcomm:'Kryo 485 Gold',freq:'2419 MHz'}
+  - 1 core = {Qualcomm:'Kryo 485 Gold',freq:'2956 MHz'}
+Cpu_freq: 'Up to 2.96 GHz'
+
+Gpu Vendor: 'Qualcomm'
+Gpu Model: 'Adreno (TM) 640'
+
+Current_branch: 'Android 13'
+Dimensions: {depth: 6.64, height: 154, width: 69}
+Download_boot: 'With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.'
+Image: 'images/devices/image.jpg'
+Install_method: '_includes/templates/recovery_install_idin.md'
+
+Kernel: {repo: 'android_kernel_samsung_SM-A826S', version: '4.14.190'}
+Maintainers: ['you','another person']
+
+Model: 'SM-A826S'
+Name: 'Samsung Galaxy Quantum 2'
+
+Network: { Technology: 'GSM, HSPA, LTE, 5G', Speed: 'HSPA 42.2/5.76 Mbps, LTE-A, 5GHz', 2GHz bands: 'GSM 850, 900, 1800, 1900', 3GHz bands: 'HSDPA 850, 900, 1700(AWS), 1900, 2100', 
+            4GHz bands: '1, 2, 3, 4, 5, 7, 8, 12, 17, 20, 26, 28, 38, 40, 41, 66', 5GHz bands: '78 Sub6' }
+
+Peripherals: ['A-GPS, Accelerometer, Audio Coprocessor, Barometer, Color spectrum sensor, Compass, DP over USB-C, Depth Sensor, Dot Projector, Dual SIM, Dual front speakers, Dual speakers,              Dual side NFC, Dual-frequency GNSS, Essential Accessories, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NAVIC, SBAS, QZSS, Gesture sensor, Google Assist Button,              Gyroscope, HDMI, Hall effect sensor, Hardware keyboard, Heart rate sensor, Hygrometer, IR blaster, IR camera, Iceview Cases, Light sensor, MHL, MHL 2.0, MHL HDMI, Mobility Dis             playPort (MyDP), Motion Coprocessor, Moto Mods, NFC, Pedometer, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, Radar, RGB ambient light, SNS integration,            Sensor hub, Thermometer, Ultrasound pr  oximity sensor, USB OTG']
+
+Ram: ['6 GB, LPDDR4X']
+
+Before_install: '_includes/templates/device_specific/before_install_before_install.md'
+Before_lineage_install: '_includes/templates/device_specific/before_lineage_install_before_lineage_install_.md'
+
+Before_recovery_install: '_includes/templates/device_specific/before_recovery_install_before_recovery_install_.md'
+Is_unlockable: 'True'
+Custom_unlock_cmd: 'True'
+Is_ab_device: 'False'
+
+Recovery_boot: 'With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.'
+Release: '2021-08-07'
+
+Required_bootloader: 'TWRP'
+Screen: {Size: '70mm x 155mm', Size inches: 6.7, WQHD+ resolution: '3200x1440', Technology: 'Dynamic AMOLED 2X'}
+Sdcard: {sizeMax: '1TB'}
+Storage: '128GB'
+
+Tree: 'Android_device_Samsung_SM-A826S'
+
+Type: 'Smartphon'
+Vendor: 'Samsung electronicks'
+Vendor_short: 'Samsung'
+
+Versions: [13.0, 14.1, 15.1, 16.0]
+Wifi: '802.11 ac'
